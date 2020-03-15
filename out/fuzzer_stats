@@ -1,0 +1,28 @@
+start_time        : 1584202861
+last_update       : 1584203751
+fuzzer_pid        : 10477
+cycles_done       : 109
+execs_done        : 5670800
+execs_per_sec     : 13622.44
+paths_total       : 80
+paths_favored     : 8
+paths_found       : 77
+paths_imported    : 0
+max_depth         : 10
+cur_path          : 66
+pending_favs      : 0
+pending_total     : 19
+variable_paths    : 51
+stability         : 97.61%
+bitmap_cvg        : 0.83%
+unique_crashes    : 29
+unique_hangs      : 0
+last_path         : 1584203539
+last_crash        : 1584203301
+last_hang         : 0
+execs_since_crash : 3444299
+exec_timeout      : 20
+afl_banner        : fuzzsnap
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : /home/ANT.AMAZON.COM/aghecen/.local/share/afl.rs/rustc-1.39.0-4560ea7/afl.rs-0.6.0/afl/bin/afl-fuzz -i in -o out target/debug/fuzzsnap
